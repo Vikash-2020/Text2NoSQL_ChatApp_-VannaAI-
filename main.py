@@ -77,7 +77,7 @@ def get_completion(messages=None, func=None, function_call="auto",
 def tot_agent(user_query):
     # return None
     # print("Sending request to Creative Tool.")
-    endpoint_url = "https://querygeneratortot.azurewebsites.net/api/TriggerCosmosTOT?code=VJmfGFxZTvZxpXOGthDL5DFFTYuXwzfl9NeDhPoCIUk2AzFuRGjDNw=="  # Replace with your actual endpoint URL
+    endpoint_url = "https://querygeneratortot.azurewebsites.net"  # Replace with your actual endpoint URL
 
     try:
         # Send a POST request to the Azure Web App Service
